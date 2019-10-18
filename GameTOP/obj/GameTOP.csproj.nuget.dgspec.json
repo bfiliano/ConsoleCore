@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\ConsoleCore\\GameTOP\\GameTOP.csproj": {}
+  },
+  "projects": {
+    "c:\\ConsoleCore\\GameTOP.Interface\\GameTOP.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\ConsoleCore\\GameTOP.Interface\\GameTOP.Interface.csproj",
+        "projectName": "GameTOP.Interface",
+        "projectPath": "c:\\ConsoleCore\\GameTOP.Interface\\GameTOP.Interface.csproj",
+        "packagesPath": "C:\\Users\\Aderencia01\\.nuget\\packages\\",
+        "outputPath": "c:\\ConsoleCore\\GameTOP.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aderencia01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\ConsoleCore\\GameTOP.Lib\\GameTOP.Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\ConsoleCore\\GameTOP.Lib\\GameTOP.Lib.csproj",
+        "projectName": "GameTOP.Lib",
+        "projectPath": "c:\\ConsoleCore\\GameTOP.Lib\\GameTOP.Lib.csproj",
+        "packagesPath": "C:\\Users\\Aderencia01\\.nuget\\packages\\",
+        "outputPath": "c:\\ConsoleCore\\GameTOP.Lib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aderencia01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "c:\\ConsoleCore\\GameTOP.Interface\\GameTOP.Interface.csproj": {
+                "projectPath": "c:\\ConsoleCore\\GameTOP.Interface\\GameTOP.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\ConsoleCore\\GameTOP\\GameTOP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\ConsoleCore\\GameTOP\\GameTOP.csproj",
+        "projectName": "GameTOP",
+        "projectPath": "c:\\ConsoleCore\\GameTOP\\GameTOP.csproj",
+        "packagesPath": "C:\\Users\\Aderencia01\\.nuget\\packages\\",
+        "outputPath": "c:\\ConsoleCore\\GameTOP\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aderencia01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "c:\\ConsoleCore\\GameTOP.Interface\\GameTOP.Interface.csproj": {
+                "projectPath": "c:\\ConsoleCore\\GameTOP.Interface\\GameTOP.Interface.csproj"
+              },
+              "c:\\ConsoleCore\\GameTOP.Lib\\GameTOP.Lib.csproj": {
+                "projectPath": "c:\\ConsoleCore\\GameTOP.Lib\\GameTOP.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
